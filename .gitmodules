@@ -1,0 +1,3 @@
+[submodule "kicad_libs/MTA-100"]
+	path = kicad_libs/mta100
+	url = git@github.com:dexterlb/MTA-100.git
