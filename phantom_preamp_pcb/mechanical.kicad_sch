@@ -281,7 +281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1258bdc1-51a6-4b3d-b411-300a679b6d6c")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR018"
 			(at 133.35 90.17 0)
 			(effects
 				(font
@@ -332,7 +332,7 @@
 		(instances
 			(project "frankentar"
 				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/a23b223f-badd-436a-abdf-c34213b6b161"
-					(reference "#PWR014")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -482,7 +482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91a19e45-53b8-43fb-8359-faa9314c89a3")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR017"
 			(at 109.22 102.87 0)
 			(effects
 				(font
@@ -533,7 +533,7 @@
 		(instances
 			(project "frankentar"
 				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/a23b223f-badd-436a-abdf-c34213b6b161"
-					(reference "#PWR016")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -549,7 +549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97c61d22-33e7-4cc0-8ef5-a5d24bb10742")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR019"
 			(at 133.35 102.87 0)
 			(effects
 				(font
@@ -600,7 +600,7 @@
 		(instances
 			(project "frankentar"
 				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/a23b223f-badd-436a-abdf-c34213b6b161"
-					(reference "#PWR015")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -683,7 +683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3a2ae30-0ab1-4d98-8205-d6656880e61a")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR016"
 			(at 109.22 90.17 0)
 			(effects
 				(font
@@ -734,7 +734,7 @@
 		(instances
 			(project "frankentar"
 				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/a23b223f-badd-436a-abdf-c34213b6b161"
-					(reference "#PWR013")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)

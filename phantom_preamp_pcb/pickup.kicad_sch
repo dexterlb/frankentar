@@ -5,142 +5,6 @@
 	(uuid "f37cc9cb-dbec-491a-ae09-ef42591262c9")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -253,167 +117,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:R_Potentiometer"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RV"
-				(at -4.445 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Potentiometer"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Potentiometer"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "resistor variable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Potentiometer*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Potentiometer_0_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Potentiometer_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1563,22 +1266,10 @@
 		)
 	)
 	(junction
-		(at 196.85 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18cbe6dd-3c0b-4235-add4-a0dca0210593")
-	)
-	(junction
 		(at 116.84 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5aa966a8-3ea6-4ed7-90e1-5e24700ff7fc")
-	)
-	(junction
-		(at 184.15 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d1de530-bccd-4ace-b72d-0698d4822341")
 	)
 	(junction
 		(at 116.84 132.08)
@@ -1597,10 +1288,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f23f72a3-9b0d-4f9a-8170-837f04664fde")
-	)
-	(no_connect
-		(at 196.85 113.03)
-		(uuid "96d05c80-4d17-4f7e-b7b9-0539fd93500e")
 	)
 	(wire
 		(pts
@@ -1624,7 +1311,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 90.17) (xy 196.85 90.17)
+			(xy 176.53 90.17) (xy 209.55 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1704,16 +1391,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 90.17) (xy 209.55 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40fb17ba-2b81-4c08-a5e3-0b10195b1e79")
-	)
-	(wire
-		(pts
 			(xy 104.14 132.08) (xy 116.84 132.08)
 		)
 		(stroke
@@ -1721,16 +1398,6 @@
 			(type default)
 		)
 		(uuid "44396ee6-3f56-41e6-b68e-fa9d2f4f247a")
-	)
-	(wire
-		(pts
-			(xy 196.85 105.41) (xy 196.85 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7af0d3d1-b7fb-4c60-a0bf-b535f8e2d59e")
 	)
 	(wire
 		(pts
@@ -1771,16 +1438,6 @@
 			(type default)
 		)
 		(uuid "839fe1e2-11f0-468a-bbc4-4b9068fe0dd6")
-	)
-	(wire
-		(pts
-			(xy 204.47 120.65) (xy 204.47 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8de202da-1e2a-4fb6-baf1-bcd5683bd578")
 	)
 	(wire
 		(pts
@@ -1834,16 +1491,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 132.08) (xy 204.47 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab685e18-fd38-4912-99cd-6cfbe6f5449b")
-	)
-	(wire
-		(pts
 			(xy 63.5 78.74) (xy 66.04 78.74)
 		)
 		(stroke
@@ -1871,26 +1518,6 @@
 			(type default)
 		)
 		(uuid "b92c5458-b4d2-4b68-a4eb-113ed0fc8179")
-	)
-	(wire
-		(pts
-			(xy 204.47 109.22) (xy 200.66 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bde4022c-186e-4e41-ba7e-b3185704d71b")
-	)
-	(wire
-		(pts
-			(xy 204.47 113.03) (xy 204.47 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0378a1b-0965-4eaf-a67b-b7bde1995efd")
 	)
 	(wire
 		(pts
@@ -2017,95 +1644,6 @@
 			(justify left)
 		)
 		(uuid "fd81219a-6b77-4bba-bece-7404358c31a6")
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 196.85 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1a103932-307f-49f9-b55d-25c8d6573228")
-		(property "Reference" "RV3"
-			(at 194.31 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "500k"
-			(at 194.31 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "pots:Potentiometer_Bourns_PDB181-K_Single_Horizontal"
-			(at 196.85 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 196.85 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "PDB181-K420K-504A2"
-			(at 196.85 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purpose" "TONE"
-			(at 196.85 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2f7dc73f-3589-48d8-8dd8-90ffa8b16146")
-		)
-		(pin "2"
-			(uuid "a6786ddf-db0a-4ad8-a1db-1234aa3725cf")
-		)
-		(pin "3"
-			(uuid "f98c81a5-e416-4a1c-8352-0df4188b399a")
-		)
-		(instances
-			(project "frankentar"
-				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/3e4b2b23-e725-47b6-9b1f-56bf4b98ba56"
-					(reference "RV3")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "pickups:humbucker_pickup")
@@ -2364,7 +1902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8db1959f-79af-48f4-b42e-6a5208ce3469")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR014"
 			(at 88.9 95.25 0)
 			(effects
 				(font
@@ -2415,7 +1953,7 @@
 		(instances
 			(project "frankentar"
 				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/3e4b2b23-e725-47b6-9b1f-56bf4b98ba56"
-					(reference "#PWR011")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -2656,7 +2194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b65fc6c-9186-4dc0-978f-769d67647b36")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR015"
 			(at 88.9 129.54 0)
 			(effects
 				(font
@@ -2707,85 +2245,7 @@
 		(instances
 			(project ""
 				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/3e4b2b23-e725-47b6-9b1f-56bf4b98ba56"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 204.47 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bde8c247-8ae1-4336-a438-00a64b4ba26d")
-		(property "Reference" "C8"
-			(at 205.74 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22nF"
-			(at 205.74 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 205.4352 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 204.47 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "C 22nF 50V 0805"
-			(at 204.47 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "172b022c-2b01-4f8a-bed2-27f1f44d264b")
-		)
-		(pin "1"
-			(uuid "09091517-ab72-468f-b15a-89bc890ab882")
-		)
-		(instances
-			(project "frankentar"
-				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/3e4b2b23-e725-47b6-9b1f-56bf4b98ba56"
-					(reference "C8")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
