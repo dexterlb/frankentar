@@ -1,5 +1,5 @@
 (sym_lib_table
   (version 7)
-  (lib (name "pickups")(type "KiCad")(uri "${KIPRJMOD}/pickups.kicad_sym")(options "")(descr ""))
-  (lib (name "conn")(type "KiCad")(uri "${KIPRJMOD}/conn.kicad_sym")(options "")(descr ""))
+  (lib (name "pickups")(type "KiCad")(uri "${KIPRJMOD}/../kicad_libs/pickups.kicad_sym")(options "")(descr ""))
+  (lib (name "conn")(type "KiCad")(uri "${KIPRJMOD}/../kicad_libs/conn.kicad_sym")(options "")(descr ""))
 )
