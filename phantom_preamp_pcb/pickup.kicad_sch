@@ -1902,7 +1902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8db1959f-79af-48f4-b42e-6a5208ce3469")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR016"
 			(at 88.9 95.25 0)
 			(effects
 				(font
@@ -1953,7 +1953,7 @@
 		(instances
 			(project "frankentar"
 				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/3e4b2b23-e725-47b6-9b1f-56bf4b98ba56"
-					(reference "#PWR014")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -2194,7 +2194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b65fc6c-9186-4dc0-978f-769d67647b36")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR017"
 			(at 88.9 129.54 0)
 			(effects
 				(font
@@ -2245,7 +2245,7 @@
 		(instances
 			(project ""
 				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/3e4b2b23-e725-47b6-9b1f-56bf4b98ba56"
-					(reference "#PWR015")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
