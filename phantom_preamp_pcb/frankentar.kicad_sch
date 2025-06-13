@@ -1,12 +1,14 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "af28111b-2b7e-4bef-a7c9-69fed8293677")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Audio:NC3MAH"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -72,28 +74,6 @@
 				)
 			)
 			(symbol "NC3MAH_0_1"
-				(circle
-					(center -3.556 0)
-					(radius 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -3.556)
-					(radius 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -5.08 0) (xy -4.572 0)
@@ -106,33 +86,20 @@
 						(type none)
 					)
 				)
+				(circle
+					(center -3.556 0)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy -2.54 -5.08) (xy -2.54 -4.445)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 0 -4.572)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 4.572 0)
 					)
 					(stroke
 						(width 0)
@@ -154,8 +121,43 @@
 					)
 				)
 				(circle
+					(center 0 -3.556)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
 					(center 3.556 0)
 					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 4.572 0)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -173,8 +175,8 @@
 						)
 					)
 				)
-				(text "2"
-					(at 3.556 1.778 0)
+				(text "3"
+					(at 0 -1.778 0)
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -182,8 +184,8 @@
 						)
 					)
 				)
-				(text "3"
-					(at 0 -1.778 0)
+				(text "2"
+					(at 3.556 1.778 0)
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -210,24 +212,6 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -7.62 90)
 					(length 2.54)
 					(name "~"
@@ -238,6 +222,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -266,10 +268,137 @@
 					)
 				)
 			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
 		(symbol "conn:Conn_01x02"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -365,14 +494,14 @@
 			)
 			(symbol "Conn_01x02_1_1"
 				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
+					(start -1.27 3.81)
+					(end 11.43 -1.27)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
@@ -387,14 +516,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 3.81)
-					(end 11.43 -1.27)
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -434,12 +563,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -530,12 +664,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -626,6 +765,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -722,7 +862,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 111.76) (xy 146.05 111.76)
+			(xy 142.24 111.76) (xy 157.48 111.76)
 		)
 		(stroke
 			(width 0)
@@ -812,6 +952,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 109.22) (xy 157.48 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e35e95bd-45af-4cbc-bdd8-276d422bf3ef")
+	)
+	(wire
+		(pts
 			(xy 83.82 109.22) (xy 83.82 101.6)
 		)
 		(stroke
@@ -829,6 +979,82 @@
 			(type default)
 		)
 		(uuid "fa7a579e-284f-4d78-ab39-894ef93e9884")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 149.86 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11f72471-a35b-4bcb-b233-229eb387d34b")
+		(property "Reference" "R1"
+			(at 149.86 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47Ω"
+			(at 149.86 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 149.86 110.998 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "R 47Ω 125mW 1% 0805"
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e35c0db3-1a95-422f-b352-46f1489fffb1")
+		)
+		(pin "1"
+			(uuid "9877c04d-b350-4aef-9110-6af8814579f9")
+		)
+		(instances
+			(project "frankentar"
+				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -966,7 +1192,7 @@
 	)
 	(symbol
 		(lib_id "conn:Conn_01x02")
-		(at 151.13 111.76 0)
+		(at 162.56 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -975,7 +1201,7 @@
 		(fields_autoplaced yes)
 		(uuid "88e1e9eb-e8f3-4707-b61f-f5b8faa14645")
 		(property "Reference" "J1"
-			(at 163.83 109.2199 0)
+			(at 175.26 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -984,7 +1210,7 @@
 			)
 		)
 		(property "Value" "Header_01x02"
-			(at 156.464 114.554 0)
+			(at 167.894 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -993,7 +1219,7 @@
 			)
 		)
 		(property "Footprint" "mta100:mta100_01x2_P2.54_647050-2"
-			(at 151.13 111.76 0)
+			(at 162.56 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1002,7 +1228,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 111.76 0)
+			(at 162.56 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1011,7 +1237,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 111.76 0)
+			(at 162.56 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1020,7 +1246,7 @@
 			)
 		)
 		(property "Purpose Pin1" "MID"
-			(at 151.13 109.22 0)
+			(at 162.56 109.22 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1030,7 +1256,7 @@
 			)
 		)
 		(property "Purpose Pin2" "GND"
-			(at 151.13 111.76 0)
+			(at 162.56 111.76 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1040,7 +1266,7 @@
 			)
 		)
 		(property "Purpose" "COMMON"
-			(at 163.83 111.7599 0)
+			(at 175.26 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1049,7 +1275,7 @@
 			)
 		)
 		(property "Part" "640456-2"
-			(at 151.13 111.76 0)
+			(at 162.56 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1292,6 +1518,10 @@
 	(sheet
 		(at 53.34 78.74)
 		(size 35.56 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1321,23 +1551,23 @@
 		)
 		(pin "SIGNAL" output
 			(at 88.9 90.17 0)
+			(uuid "abc104db-14da-4a94-8c95-95c7e2489c3f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "abc104db-14da-4a94-8c95-95c7e2489c3f")
 		)
 		(pin "MID" input
 			(at 83.82 101.6 270)
+			(uuid "8ce56dd1-072c-4b0d-adbf-bcb64aba67f8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8ce56dd1-072c-4b0d-adbf-bcb64aba67f8")
 		)
 		(instances
 			(project "frankentar"
@@ -1350,6 +1580,10 @@
 	(sheet
 		(at 107.95 78.74)
 		(size 52.07 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1379,53 +1613,53 @@
 		)
 		(pin "VPH" input
 			(at 142.24 78.74 90)
+			(uuid "6587e54c-e1fb-4408-8747-7c24d09e0a9e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6587e54c-e1fb-4408-8747-7c24d09e0a9e")
 		)
 		(pin "MID" output
 			(at 142.24 101.6 270)
+			(uuid "5cc09c6c-05da-4f20-a890-d928e55aec3c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5cc09c6c-05da-4f20-a890-d928e55aec3c")
 		)
 		(pin "A" output
 			(at 160.02 85.09 0)
+			(uuid "8129397b-8867-4385-9e97-3558046423bb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8129397b-8867-4385-9e97-3558046423bb")
 		)
 		(pin "B" output
 			(at 160.02 95.25 0)
+			(uuid "548a4ae5-d7ae-47f0-aa04-b4da69cab5c2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "548a4ae5-d7ae-47f0-aa04-b4da69cab5c2")
 		)
 		(pin "SIGNAL" input
 			(at 107.95 90.17 180)
+			(uuid "1c578a39-6b21-4e00-9479-45ed19f712c4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1c578a39-6b21-4e00-9479-45ed19f712c4")
 		)
 		(instances
 			(project "frankentar"
@@ -1438,6 +1672,10 @@
 	(sheet
 		(at 53.34 129.54)
 		(size 35.56 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1476,6 +1714,10 @@
 	(sheet
 		(at 175.26 78.74)
 		(size 46.99 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1504,54 +1746,54 @@
 			)
 		)
 		(pin "OUT_A" output
-			(at 222.25 85.09 0)
+			(at 222.25 95.25 0)
+			(uuid "419fcae3-a496-47df-9ec6-a9102af27d78")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "419fcae3-a496-47df-9ec6-a9102af27d78")
 		)
 		(pin "OUT_B" output
-			(at 222.25 95.25 0)
+			(at 222.25 85.09 0)
+			(uuid "85802195-c3bd-4061-94bd-557805849276")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "85802195-c3bd-4061-94bd-557805849276")
 		)
 		(pin "VPH" output
 			(at 198.12 78.74 90)
+			(uuid "da5cca67-e8e0-4dd5-b202-ad86878cb5d2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "da5cca67-e8e0-4dd5-b202-ad86878cb5d2")
 		)
 		(pin "B" input
 			(at 175.26 95.25 180)
+			(uuid "302f9b01-8db2-407c-bd05-9e5c515e3cff")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "302f9b01-8db2-407c-bd05-9e5c515e3cff")
 		)
 		(pin "A" input
 			(at 175.26 85.09 180)
+			(uuid "6ab43669-6616-406d-8b2b-4a646d4e6d33")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6ab43669-6616-406d-8b2b-4a646d4e6d33")
 		)
 		(instances
 			(project "frankentar"
@@ -1566,4 +1808,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

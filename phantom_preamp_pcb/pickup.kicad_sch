@@ -1,12 +1,14 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "f37cc9cb-dbec-491a-ae09-ef42591262c9")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -125,10 +127,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Potentiometer_Dual"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -239,6 +244,18 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -1.397) (xy -6.858 -0.254) (xy -5.842 -0.254) (xy -6.35 -1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -361,6 +378,17 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start 3.81 -1.524)
+					(end 8.89 -3.556)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 4.572 0.508) (xy 5.08 0.508)
@@ -411,30 +439,6 @@
 				)
 				(polyline
 					(pts
-						(xy 6.604 0.508) (xy 6.858 0.508) (xy 6.35 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 -1.397) (xy -6.858 -0.254) (xy -5.842 -0.254) (xy -6.35 -1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
 						(xy 6.35 -1.397) (xy 5.842 -0.254) (xy 6.858 -0.254) (xy 6.35 -1.397)
 					)
 					(stroke
@@ -445,11 +449,12 @@
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 3.81 -1.524)
-					(end 8.89 -3.556)
+				(polyline
+					(pts
+						(xy 6.604 0.508) (xy 6.858 0.508) (xy 6.35 0)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -567,6 +572,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "pickups:humbucker_pickup"
 			(exclude_from_sim no)
@@ -661,10 +667,22 @@
 				)
 			)
 			(symbol "humbucker_pickup_0_1"
-				(arc
-					(start -7.5949 3.8097)
-					(mid -7.2266 2.9258)
-					(end -6.3503 2.5397)
+				(polyline
+					(pts
+						(xy -10.16 -6.35) (xy -7.62 -6.35) (xy -7.62 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 3.81) (xy -7.62 6.35) (xy -10.16 6.35)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -674,9 +692,9 @@
 					)
 				)
 				(arc
-					(start -6.3503 2.5397)
-					(mid -5.452 2.9116)
-					(end -5.0803 3.8097)
+					(start -6.3057 -2.5217)
+					(mid -5.4294 -2.9078)
+					(end -5.0611 -3.7917)
 					(stroke
 						(width 0)
 						(type default)
@@ -697,9 +715,9 @@
 					)
 				)
 				(arc
-					(start -6.3057 -2.5217)
-					(mid -7.2037 -2.8937)
-					(end -7.5757 -3.7917)
+					(start -5.0803 3.8097)
+					(mid -5.4521 2.9115)
+					(end -6.3503 2.5397)
 					(stroke
 						(width 0)
 						(type default)
@@ -709,8 +727,20 @@
 					)
 				)
 				(arc
-					(start -5.0611 -3.7917)
-					(mid -5.4294 -2.9078)
+					(start -6.3503 2.5397)
+					(mid -7.2266 2.9258)
+					(end -7.5949 3.8097)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -7.5757 -3.7917)
+					(mid -7.2037 -2.8937)
 					(end -6.3057 -2.5217)
 					(stroke
 						(width 0)
@@ -721,8 +751,8 @@
 					)
 				)
 				(arc
-					(start -5.0549 3.8097)
-					(mid -4.6866 2.9258)
+					(start -2.5403 3.8097)
+					(mid -2.9123 2.9117)
 					(end -3.8103 2.5397)
 					(stroke
 						(width 0)
@@ -733,9 +763,9 @@
 					)
 				)
 				(arc
-					(start -3.8103 2.5397)
-					(mid -2.9123 2.9117)
-					(end -2.5403 3.8097)
+					(start -3.7657 -2.5217)
+					(mid -2.8894 -2.9078)
+					(end -2.5211 -3.7917)
 					(stroke
 						(width 0)
 						(type default)
@@ -756,9 +786,9 @@
 					)
 				)
 				(arc
-					(start -3.7657 -2.5217)
-					(mid -4.6637 -2.8937)
-					(end -5.0357 -3.7917)
+					(start -3.8103 2.5397)
+					(mid -4.6866 2.9258)
+					(end -5.0549 3.8097)
 					(stroke
 						(width 0)
 						(type default)
@@ -768,8 +798,8 @@
 					)
 				)
 				(arc
-					(start -2.5211 -3.7917)
-					(mid -2.8894 -2.9078)
+					(start -5.0357 -3.7917)
+					(mid -4.6637 -2.8937)
 					(end -3.7657 -2.5217)
 					(stroke
 						(width 0)
@@ -780,8 +810,8 @@
 					)
 				)
 				(arc
-					(start -2.5149 3.8097)
-					(mid -2.1466 2.9258)
+					(start -0.0003 3.8097)
+					(mid -0.3723 2.9117)
 					(end -1.2703 2.5397)
 					(stroke
 						(width 0)
@@ -792,9 +822,9 @@
 					)
 				)
 				(arc
-					(start -1.2703 2.5397)
-					(mid -0.3723 2.9117)
-					(end -0.0003 3.8097)
+					(start -1.2257 -2.5217)
+					(mid -0.3494 -2.9078)
+					(end 0.0189 -3.7917)
 					(stroke
 						(width 0)
 						(type default)
@@ -815,9 +845,21 @@
 					)
 				)
 				(arc
-					(start -1.2257 -2.5217)
+					(start -1.2703 2.5397)
+					(mid -2.1466 2.9258)
+					(end -2.5149 3.8097)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.4957 -3.7917)
 					(mid -2.1237 -2.8937)
-					(end -2.4957 -3.7917)
+					(end -1.2257 -2.5217)
 					(stroke
 						(width 0)
 						(type default)
@@ -826,10 +868,10 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -10.16 -6.35) (xy -7.62 -6.35) (xy -7.62 -3.81)
-					)
+				(arc
+					(start 2.5397 3.8097)
+					(mid 2.1676 2.912)
+					(end 1.2697 2.5397)
 					(stroke
 						(width 0)
 						(type default)
@@ -838,10 +880,163 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -7.62 3.81) (xy -7.62 6.35) (xy -10.16 6.35)
+				(circle
+					(center 1.27 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
 					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.3143 -2.5217)
+					(mid 2.1907 -2.9077)
+					(end 2.5589 -3.7917)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.2697 2.5397)
+					(mid 0.3934 2.9258)
+					(end 0.0251 3.8097)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.0443 -3.7917)
+					(mid 0.4163 -2.8937)
+					(end 1.3143 -2.5217)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.0797 3.8097)
+					(mid 4.7076 2.912)
+					(end 3.8097 2.5397)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.8543 -2.5217)
+					(mid 4.7307 -2.9077)
+					(end 5.0989 -3.7917)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.8097 2.5397)
+					(mid 2.9333 2.9257)
+					(end 2.5651 3.8097)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.5843 -3.7917)
+					(mid 2.956 -2.8933)
+					(end 3.8543 -2.5217)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.6197 3.8097)
+					(mid 7.2476 2.912)
+					(end 6.3497 2.5397)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 6.3943 -2.5217)
+					(mid 7.2707 -2.9077)
+					(end 7.6389 -3.7917)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 6.3497 2.5397)
+					(mid 5.4733 2.9257)
+					(end 5.1051 3.8097)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.1243 -3.7917)
+					(mid 5.496 -2.8933)
+					(end 6.3943 -2.5217)
 					(stroke
 						(width 0)
 						(type default)
@@ -874,195 +1069,6 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0.0189 -3.7917)
-					(mid -0.3494 -2.9078)
-					(end -1.2257 -2.5217)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.0251 3.8097)
-					(mid 0.3934 2.9258)
-					(end 1.2697 2.5397)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.2697 2.5397)
-					(mid 2.1677 2.9117)
-					(end 2.5397 3.8097)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.3143 -2.5217)
-					(mid 0.4163 -2.8937)
-					(end 0.0443 -3.7917)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.5589 -3.7917)
-					(mid 2.1906 -2.9078)
-					(end 1.3143 -2.5217)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.5651 3.8097)
-					(mid 2.9334 2.9258)
-					(end 3.8097 2.5397)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 3.8097 2.5397)
-					(mid 4.708 2.9116)
-					(end 5.0797 3.8097)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.81 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 3.8543 -2.5217)
-					(mid 2.956 -2.8936)
-					(end 2.5843 -3.7917)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 5.0989 -3.7917)
-					(mid 4.7306 -2.9078)
-					(end 3.8543 -2.5217)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 5.1051 3.8097)
-					(mid 5.4734 2.9258)
-					(end 6.3497 2.5397)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 6.3497 2.5397)
-					(mid 7.248 2.9116)
-					(end 7.6197 3.8097)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.35 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 6.3943 -2.5217)
-					(mid 5.496 -2.8936)
-					(end 5.1243 -3.7917)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 7.6389 -3.7917)
-					(mid 7.2706 -2.9078)
-					(end 6.3943 -2.5217)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
 			(symbol "humbucker_pickup_1_1"
 				(rectangle
@@ -1087,42 +1093,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 6.35 180)
-					(length 2.54)
-					(name "N-END"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -6.35 180)
-					(length 2.54)
-					(name "S-END"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1166,13 +1136,54 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 22.86 6.35 180)
+					(length 2.54)
+					(name "N-END"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -6.35 180)
+					(length 2.54)
+					(name "S-END"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1263,6 +1274,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -1601,7 +1613,6 @@
 	)
 	(label "PICKUP_2"
 		(at 142.24 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1612,7 +1623,6 @@
 	)
 	(label "PICKUP_1"
 		(at 142.24 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1624,7 +1634,6 @@
 	(hierarchical_label "MID"
 		(shape input)
 		(at 104.14 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1636,7 +1645,6 @@
 	(hierarchical_label "SIGNAL"
 		(shape output)
 		(at 209.55 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1644,155 +1652,6 @@
 			(justify left)
 		)
 		(uuid "fd81219a-6b77-4bba-bece-7404358c31a6")
-	)
-	(symbol
-		(lib_id "pickups:humbucker_pickup")
-		(at 88.9 106.68 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7600d9a2-4913-4352-8d09-1de2e09ae4dd")
-		(property "Reference" "J4"
-			(at 69.85 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Humbucker pickup"
-			(at 101.6 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "mta100:mta100_01x5_P2.54_647050-5"
-			(at 91.44 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purpose Pin1" "N-START"
-			(at 88.9 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purpose Pin2" "N-END"
-			(at 88.9 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purpose Pin3" "S-END"
-			(at 88.9 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Puspose Pin4" "S-START"
-			(at 88.9 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purpose Pin5" "SHIELD"
-			(at 88.9 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "640456-5"
-			(at 88.9 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purpose" "B"
-			(at 88.9 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purpose Pin4" "S-START"
-			(at 88.9 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9b157636-83f5-4a41-9f31-41b74517ea42")
-		)
-		(pin "5"
-			(uuid "337ca8cf-ddb0-495b-bd3a-78eee6110242")
-		)
-		(pin "4"
-			(uuid "36d3d452-014c-4a46-95d7-011190308afa")
-		)
-		(pin "3"
-			(uuid "238fda46-e0ec-43fa-bfcb-afb02878aa29")
-		)
-		(pin "1"
-			(uuid "ba6b01cc-9e44-4c3c-9f3a-104b6552e6ae")
-		)
-		(instances
-			(project "frankentar"
-				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/3e4b2b23-e725-47b6-9b1f-56bf4b98ba56"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer_Dual")
@@ -1902,7 +1761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8db1959f-79af-48f4-b42e-6a5208ce3469")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR014"
 			(at 88.9 95.25 0)
 			(effects
 				(font
@@ -1953,7 +1812,147 @@
 		(instances
 			(project "frankentar"
 				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/3e4b2b23-e725-47b6-9b1f-56bf4b98ba56"
-					(reference "#PWR016")
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pickups:humbucker_pickup")
+		(at 88.9 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8fd04f68-909a-4684-8549-b19a92c5fe2f")
+		(property "Reference" "J4"
+			(at 69.85 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Humbucker pickup"
+			(at 100.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mta100:mta100_01x5_P2.54_647050-5"
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose Pin1" "NS"
+			(at 88.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose Pin2" "NE"
+			(at 88.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose Pin3" "SE"
+			(at 88.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose Pin4" "SS"
+			(at 88.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose Pin5" "G"
+			(at 88.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "640456-5"
+			(at 88.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "A"
+			(at 88.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac343941-966e-408a-8435-d32d0cbc3da5")
+		)
+		(pin "5"
+			(uuid "d3180d28-3659-4f22-a7f3-2cd5d4aa973e")
+		)
+		(pin "4"
+			(uuid "176d54c5-9ce4-4a82-a257-947802ea04dc")
+		)
+		(pin "3"
+			(uuid "10d5c132-289d-42d4-a41b-30987a0a1b81")
+		)
+		(pin "1"
+			(uuid "2959ce13-25c3-454a-b49a-c12483f468b5")
+		)
+		(instances
+			(project "frankentar"
+				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/3e4b2b23-e725-47b6-9b1f-56bf4b98ba56"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -1968,7 +1967,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93d58012-a858-40c6-90ff-5e336ba855fb")
-		(property "Reference" "R21"
+		(property "Reference" "R22"
 			(at 165.1 93.98 90)
 			(effects
 				(font
@@ -2029,7 +2028,7 @@
 		(instances
 			(project "frankentar"
 				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/3e4b2b23-e725-47b6-9b1f-56bf4b98ba56"
-					(reference "R21")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -2088,7 +2087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purpose Pin1" "N-START"
+		(property "Purpose Pin1" "NS"
 			(at 88.9 72.39 0)
 			(effects
 				(font
@@ -2097,7 +2096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purpose Pin2" "N-END"
+		(property "Purpose Pin2" "NE"
 			(at 88.9 72.39 0)
 			(effects
 				(font
@@ -2106,7 +2105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purpose Pin3" "S-END"
+		(property "Purpose Pin3" "SE"
 			(at 88.9 72.39 0)
 			(effects
 				(font
@@ -2115,7 +2114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Puspose Pin4" "S-START"
+		(property "Purpose Pin4" "SS"
 			(at 88.9 72.39 0)
 			(effects
 				(font
@@ -2124,7 +2123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purpose Pin5" "SHIELD"
+		(property "Purpose Pin5" "G"
 			(at 88.9 72.39 0)
 			(effects
 				(font
@@ -2142,16 +2141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purpose" "A"
-			(at 88.9 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purpose Pin4" "S-START"
+		(property "Purpose" "B"
 			(at 88.9 72.39 0)
 			(effects
 				(font
@@ -2194,7 +2184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b65fc6c-9186-4dc0-978f-769d67647b36")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR015"
 			(at 88.9 129.54 0)
 			(effects
 				(font
@@ -2245,7 +2235,7 @@
 		(instances
 			(project ""
 				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/3e4b2b23-e725-47b6-9b1f-56bf4b98ba56"
-					(reference "#PWR017")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -2260,7 +2250,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0fd4b9b-052f-4ae0-a2d3-d6dc8e1e922f")
-		(property "Reference" "R20"
+		(property "Reference" "R21"
 			(at 165.1 81.28 90)
 			(effects
 				(font
@@ -2321,7 +2311,7 @@
 		(instances
 			(project "frankentar"
 				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/3e4b2b23-e725-47b6-9b1f-56bf4b98ba56"
-					(reference "R20")
+					(reference "R21")
 					(unit 1)
 				)
 			)

@@ -1,148 +1,14 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "3c7630fc-80fd-4177-be69-51a0759c9af7")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -298,11 +164,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:D_Zener"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -370,10 +241,10 @@
 			(symbol "D_Zener_0_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -382,10 +253,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -443,11 +314,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:LED"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -494,6 +370,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
@@ -515,10 +400,22 @@
 			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -539,7 +436,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -551,22 +448,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -612,9 +497,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -733,12 +621,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -829,12 +722,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -925,6 +823,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -932,12 +831,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0170e80c-2345-4b9f-8216-5d594a91ab72")
-	)
-	(junction
-		(at 184.15 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "127205ed-9179-4fe9-a6d1-4bde61606a8f")
 	)
 	(junction
 		(at 120.65 83.82)
@@ -985,16 +878,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 97.79) (xy 184.15 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b5c022b-a544-48ef-9b15-f237b07a982b")
-	)
-	(wire
-		(pts
 			(xy 83.82 102.87) (xy 86.36 102.87)
 		)
 		(stroke
@@ -1012,26 +895,6 @@
 			(type default)
 		)
 		(uuid "3ea79fc6-b067-4996-ab4e-117dbda85ce9")
-	)
-	(wire
-		(pts
-			(xy 184.15 83.82) (xy 190.5 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f31d6c0-edd3-4b73-9c35-461028558f89")
-	)
-	(wire
-		(pts
-			(xy 184.15 90.17) (xy 184.15 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "456bf254-5ff8-4ea8-9b19-633a0f7521c1")
 	)
 	(wire
 		(pts
@@ -1175,7 +1038,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 83.82) (xy 171.45 83.82)
+			(xy 171.45 83.82) (xy 185.42 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1226,7 +1089,6 @@
 	(hierarchical_label "A"
 		(shape input)
 		(at 83.82 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1238,7 +1100,6 @@
 	(hierarchical_label "B"
 		(shape input)
 		(at 83.82 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1250,7 +1111,6 @@
 	(hierarchical_label "OUT_A"
 		(shape output)
 		(at 128.27 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1261,8 +1121,7 @@
 	)
 	(hierarchical_label "VPH"
 		(shape output)
-		(at 190.5 83.82 0)
-		(fields_autoplaced yes)
+		(at 185.42 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1274,7 +1133,6 @@
 	(hierarchical_label "OUT_B"
 		(shape output)
 		(at 128.27 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1293,7 +1151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "164c2bbf-0891-40cf-8386-06dfc1169c57")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR012"
 			(at 149.86 110.49 0)
 			(effects
 				(font
@@ -1344,7 +1202,7 @@
 		(instances
 			(project ""
 				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/f17b91a8-87d6-477f-9805-f1b92e4e6156"
-					(reference "#PWR013")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -1359,7 +1217,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c70a6cf-eb60-41c1-b9ac-05cb48f97a8d")
-		(property "Reference" "R18"
+		(property "Reference" "R19"
 			(at 123.19 92.71 0)
 			(effects
 				(font
@@ -1420,7 +1278,7 @@
 		(instances
 			(project "frankentar"
 				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/f17b91a8-87d6-477f-9805-f1b92e4e6156"
-					(reference "R18")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -1434,24 +1292,26 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3eea012d-be2f-4b05-a401-be5fb1105e61")
-		(property "Reference" "C12"
-			(at 175.26 92.71 0)
+		(uuid "369c2cc8-34d5-4df7-9cb9-43a1bec30e27")
+		(property "Reference" "C11"
+			(at 172.72 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "33μF"
-			(at 176.53 95.25 0)
+			(at 172.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 172.4152 97.79 0)
 			(effects
 				(font
@@ -1478,7 +1338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "CP 33μF 63V P2.5"
+		(property "Part" "CP 33μF 100V P3.5 AUDIO"
 			(at 171.45 93.98 0)
 			(effects
 				(font
@@ -1488,15 +1348,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "a000d827-772d-4d9e-b80e-183ac76f5c7a")
+			(uuid "e078d671-3126-462f-9c3a-74c1f84f5296")
 		)
 		(pin "1"
-			(uuid "737d8a1c-6f05-419f-9be8-307e052dd5f0")
+			(uuid "08111b1d-ff4e-4488-9e02-309c219d469b")
 		)
 		(instances
 			(project "frankentar"
 				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/f17b91a8-87d6-477f-9805-f1b92e4e6156"
-					(reference "C12")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -1657,7 +1517,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "640b3618-cf76-4d25-90c5-f4511031a9e5")
-		(property "Reference" "R19"
+		(property "Reference" "R20"
 			(at 161.29 83.82 90)
 			(effects
 				(font
@@ -1718,7 +1578,7 @@
 		(instances
 			(project "frankentar"
 				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/f17b91a8-87d6-477f-9805-f1b92e4e6156"
-					(reference "R19")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -1733,7 +1593,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b2133f5-8ad7-496e-9157-2c2f5cef2286")
-		(property "Reference" "C10"
+		(property "Reference" "C9"
 			(at 90.17 99.06 90)
 			(effects
 				(font
@@ -1749,7 +1609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 93.98 101.9048 0)
 			(effects
 				(font
@@ -1776,7 +1636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "CP 33μF 63V P2.5"
+		(property "Part" "CP 33μF 100V P3.5 AUDIO"
 			(at 90.17 102.87 0)
 			(effects
 				(font
@@ -1794,41 +1654,39 @@
 		(instances
 			(project "frankentar"
 				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/f17b91a8-87d6-477f-9805-f1b92e4e6156"
-					(reference "C10")
+					(reference "C9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 184.15 93.98 0)
+		(lib_id "Device:C_Polarized")
+		(at 90.17 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "98c5c580-b342-4808-abee-be5ace204a78")
-		(property "Reference" "C13"
-			(at 185.42 91.44 0)
+		(uuid "a139d48a-afc5-4e4b-979f-83d89b0bd79e")
+		(property "Reference" "C10"
+			(at 90.17 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 185.42 96.52 0)
+		(property "Value" "33μF"
+			(at 90.17 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 185.1152 97.79 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+			(at 93.98 114.6048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1837,7 +1695,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 93.98 0)
+			(at 90.17 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1845,8 +1703,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 184.15 93.98 0)
+		(property "Description" "Polarized capacitor"
+			(at 90.17 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1854,8 +1712,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "C 100nF 50V 0805"
-			(at 184.15 93.98 0)
+		(property "Part" "CP 33μF 100V P3.5 AUDIO"
+			(at 90.17 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1864,15 +1722,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "6fc562e0-5ddc-4d1d-a343-d352637f5c37")
+			(uuid "9ec41dea-5143-40ae-b301-a5200abd4582")
 		)
 		(pin "1"
-			(uuid "e6ede74f-17c0-44d5-9c33-4ab6b6fdf0e9")
+			(uuid "dd6f17bd-6334-4312-bb30-672adc7f490a")
 		)
 		(instances
 			(project "frankentar"
 				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/f17b91a8-87d6-477f-9805-f1b92e4e6156"
-					(reference "C13")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -1887,7 +1745,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c22a789b-1504-4c31-9df9-e13a5a7fd626")
-		(property "Reference" "R17"
+		(property "Reference" "R18"
 			(at 113.03 92.71 0)
 			(effects
 				(font
@@ -1948,83 +1806,7 @@
 		(instances
 			(project "frankentar"
 				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/f17b91a8-87d6-477f-9805-f1b92e4e6156"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 90.17 115.57 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c9ec6c3a-d172-4a4c-bf19-ed04c69c2f3d")
-		(property "Reference" "C11"
-			(at 90.17 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33μF"
-			(at 90.17 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
-			(at 93.98 114.6048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 90.17 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "CP 33μF 63V P2.5"
-			(at 90.17 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "11c32a7b-0ae7-4345-9d4c-140dafb2c9ec")
-		)
-		(pin "1"
-			(uuid "eeadd34e-c41e-41eb-9cf0-96aadfbc0594")
-		)
-		(instances
-			(project "frankentar"
-				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/f17b91a8-87d6-477f-9805-f1b92e4e6156"
-					(reference "C11")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -2119,7 +1901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1682126-4253-4348-8e90-42fefd569c6d")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR013"
 			(at 171.45 110.49 0)
 			(effects
 				(font
@@ -2170,7 +1952,7 @@
 		(instances
 			(project "frankentar"
 				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/f17b91a8-87d6-477f-9805-f1b92e4e6156"
-					(reference "#PWR014")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -2185,7 +1967,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef591d93-c882-4ee2-9f04-403ea558dee5")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 101.6 115.57 90)
 			(effects
 				(font
@@ -2246,74 +2028,7 @@
 		(instances
 			(project "frankentar"
 				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/f17b91a8-87d6-477f-9805-f1b92e4e6156"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 184.15 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f28e91f7-172c-497e-b3c4-db02254cfde8")
-		(property "Reference" "#PWR015"
-			(at 184.15 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 184.15 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bccc0f5b-f4fb-4224-9b8e-978eadcfbbc7")
-		)
-		(instances
-			(project "frankentar"
-				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/f17b91a8-87d6-477f-9805-f1b92e4e6156"
-					(reference "#PWR015")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -2328,7 +2043,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe21a143-a0f9-4379-ae15-8bf7b0987577")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 101.6 102.87 90)
 			(effects
 				(font
@@ -2389,7 +2104,7 @@
 		(instances
 			(project "frankentar"
 				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/f17b91a8-87d6-477f-9805-f1b92e4e6156"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)

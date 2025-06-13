@@ -1,15 +1,19 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "52a9aec3-0644-456e-b513-96bf6618a5cc")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim yes)
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
@@ -106,12 +110,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -202,6 +211,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(symbol
@@ -281,7 +291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1258bdc1-51a6-4b3d-b411-300a679b6d6c")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR018"
 			(at 133.35 90.17 0)
 			(effects
 				(font
@@ -332,7 +342,7 @@
 		(instances
 			(project "frankentar"
 				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/a23b223f-badd-436a-abdf-c34213b6b161"
-					(reference "#PWR020")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -482,7 +492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91a19e45-53b8-43fb-8359-faa9314c89a3")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR017"
 			(at 109.22 102.87 0)
 			(effects
 				(font
@@ -533,7 +543,7 @@
 		(instances
 			(project "frankentar"
 				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/a23b223f-badd-436a-abdf-c34213b6b161"
-					(reference "#PWR019")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -549,7 +559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97c61d22-33e7-4cc0-8ef5-a5d24bb10742")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR019"
 			(at 133.35 102.87 0)
 			(effects
 				(font
@@ -600,7 +610,7 @@
 		(instances
 			(project "frankentar"
 				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/a23b223f-badd-436a-abdf-c34213b6b161"
-					(reference "#PWR021")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -683,7 +693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3a2ae30-0ab1-4d98-8205-d6656880e61a")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR016"
 			(at 109.22 90.17 0)
 			(effects
 				(font
@@ -734,7 +744,7 @@
 		(instances
 			(project "frankentar"
 				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/a23b223f-badd-436a-abdf-c34213b6b161"
-					(reference "#PWR018")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
