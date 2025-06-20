@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "pickups")(type "KiCad")(uri "${KIPRJMOD}/../kicad_libs/pickups.kicad_sym")(options "")(descr ""))
   (lib (name "conn")(type "KiCad")(uri "${KIPRJMOD}/../kicad_libs/conn.kicad_sym")(options "")(descr ""))
+  (lib (name "logos")(type "KiCad")(uri "${KIPRJMOD}/../kicad_libs/logos.kicad_sym")(options "")(descr ""))
 )

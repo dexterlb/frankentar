@@ -963,9 +963,9 @@
 					)
 				)
 				(arc
-					(start 3.8097 2.5397)
-					(mid 2.9333 2.9257)
-					(end 2.5651 3.8097)
+					(start 2.5843 -3.7917)
+					(mid 2.956 -2.8933)
+					(end 3.8543 -2.5217)
 					(stroke
 						(width 0)
 						(type default)
@@ -975,9 +975,9 @@
 					)
 				)
 				(arc
-					(start 2.5843 -3.7917)
-					(mid 2.956 -2.8933)
-					(end 3.8543 -2.5217)
+					(start 3.8097 2.5397)
+					(mid 2.9333 2.9257)
+					(end 2.5651 3.8097)
 					(stroke
 						(width 0)
 						(type default)
@@ -1022,9 +1022,9 @@
 					)
 				)
 				(arc
-					(start 6.3497 2.5397)
-					(mid 5.4733 2.9257)
-					(end 5.1051 3.8097)
+					(start 5.1243 -3.7917)
+					(mid 5.496 -2.8933)
+					(end 6.3943 -2.5217)
 					(stroke
 						(width 0)
 						(type default)
@@ -1034,9 +1034,9 @@
 					)
 				)
 				(arc
-					(start 5.1243 -3.7917)
-					(mid 5.496 -2.8933)
-					(end 6.3943 -2.5217)
+					(start 6.3497 2.5397)
+					(mid 5.4733 2.9257)
+					(end 5.1051 3.8097)
 					(stroke
 						(width 0)
 						(type default)
@@ -1707,7 +1707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" " PDB182-K420K-504B "
+		(property "Part" ""
 			(at 173.99 90.17 0)
 			(effects
 				(font
@@ -1722,6 +1722,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Puspose Pin4" ""
+			(at 173.99 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PDB182-K420K-504B "
+			(at 173.99 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "5"
@@ -1916,7 +1934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "640456-5"
+		(property "Part" ""
 			(at 88.9 106.68 0)
 			(effects
 				(font
@@ -1926,6 +1944,24 @@
 			)
 		)
 		(property "Purpose" "A"
+			(at 88.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Puspose Pin4" ""
+			(at 88.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "640456-5"
 			(at 88.9 106.68 0)
 			(effects
 				(font
@@ -2010,8 +2046,26 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "R 4.7kΩ 125mW 1% 0805"
+		(property "Part" ""
 			(at 165.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Puspose Pin4" ""
+			(at 165.1 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "R 4.7kΩ 125mW 1% 0805"
+			(at 165.1 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2132,7 +2186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "640456-5"
+		(property "Part" ""
 			(at 88.9 72.39 0)
 			(effects
 				(font
@@ -2142,6 +2196,24 @@
 			)
 		)
 		(property "Purpose" "B"
+			(at 88.9 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Puspose Pin4" ""
+			(at 88.9 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "640456-5"
 			(at 88.9 72.39 0)
 			(effects
 				(font
@@ -2293,8 +2365,26 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "R 4.7kΩ 125mW 1% 0805"
+		(property "Part" ""
 			(at 165.1 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Puspose Pin4" ""
+			(at 165.1 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "R 4.7kΩ 125mW 1% 0805"
+			(at 165.1 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)

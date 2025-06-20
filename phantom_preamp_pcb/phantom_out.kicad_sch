@@ -1260,7 +1260,25 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "R 4.7kΩ 125mW 1% 0805"
+		(property "Part" ""
+			(at 120.65 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Puspose Pin4" ""
+			(at 120.65 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "R 4.7kΩ 125mW 1% 0805"
 			(at 120.65 93.98 0)
 			(effects
 				(font
@@ -1338,7 +1356,25 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "CP 33μF 100V P3.5 AUDIO"
+		(property "Part" ""
+			(at 171.45 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Puspose Pin4" ""
+			(at 171.45 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CP 33μF 100V P3.5 AUDIO"
 			(at 171.45 93.98 0)
 			(effects
 				(font
@@ -1484,8 +1520,26 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "KP-2012SECK"
+		(property "Part" ""
 			(at 149.86 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Puspose Pin4" ""
+			(at 149.86 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KP-2012SECK"
+			(at 149.86 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1560,8 +1614,26 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "R 47Ω 125mW 1% 0805"
+		(property "Part" ""
 			(at 161.29 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Puspose Pin4" ""
+			(at 161.29 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "R 47Ω 125mW 1% 0805"
+			(at 161.29 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1636,8 +1708,26 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "CP 33μF 100V P3.5 AUDIO"
+		(property "Part" ""
 			(at 90.17 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Puspose Pin4" ""
+			(at 90.17 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CP 33μF 100V P3.5 AUDIO"
+			(at 90.17 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1712,8 +1802,26 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "CP 33μF 100V P3.5 AUDIO"
+		(property "Part" ""
 			(at 90.17 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Puspose Pin4" ""
+			(at 90.17 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CP 33μF 100V P3.5 AUDIO"
+			(at 90.17 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1788,7 +1896,25 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "R 4.7kΩ 125mW 1% 0805"
+		(property "Part" ""
+			(at 110.49 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Puspose Pin4" ""
+			(at 110.49 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "R 4.7kΩ 125mW 1% 0805"
 			(at 110.49 93.98 0)
 			(effects
 				(font
@@ -1867,8 +1993,26 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "TZMC10GS08"
+		(property "Part" ""
 			(at 149.86 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Puspose Pin4" ""
+			(at 149.86 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TZMC10GS08"
+			(at 149.86 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2010,8 +2154,26 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "R 47Ω 125mW 1% 0805"
+		(property "Part" ""
 			(at 101.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Puspose Pin4" ""
+			(at 101.6 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "R 47Ω 125mW 1% 0805"
+			(at 101.6 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2086,8 +2248,26 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "R 47Ω 125mW 1% 0805"
+		(property "Part" ""
 			(at 101.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Puspose Pin4" ""
+			(at 101.6 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "R 47Ω 125mW 1% 0805"
+			(at 101.6 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)

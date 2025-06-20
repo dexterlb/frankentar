@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "pots")(type "KiCad")(uri "${KIPRJMOD}/../kicad_libs/pots.pretty")(options "")(descr ""))
   (lib (name "mta100")(type "KiCad")(uri "${KIPRJMOD}/../kicad_libs/mta100/mta100/Connector_MTA-100.pretty")(options "")(descr ""))
+  (lib (name "logos")(type "KiCad")(uri "${KIPRJMOD}/../kicad_libs/logos.pretty")(options "")(descr ""))
 )

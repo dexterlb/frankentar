@@ -1032,8 +1032,26 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "R 47Ω 125mW 1% 0805"
+		(property "Part" ""
 			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Puspose Pin4" ""
+			(at 149.86 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "R 47Ω 125mW 1% 0805"
+			(at 149.86 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1274,7 +1292,25 @@
 				(justify left)
 			)
 		)
-		(property "Part" "640456-2"
+		(property "Part" ""
+			(at 162.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Puspose Pin4" ""
+			(at 162.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "640456-2"
 			(at 162.56 111.76 0)
 			(effects
 				(font
@@ -1485,7 +1521,25 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "NC3MAH"
+		(property "Part" ""
+			(at 241.3 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Puspose Pin4" ""
+			(at 241.3 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NC3MAH"
 			(at 241.3 85.09 0)
 			(effects
 				(font

@@ -112,6 +112,72 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "logos:logo"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "logo"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "logo_0_1"
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -224,7 +290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "084376d1-8f49-477e-b370-7ff236df1732")
-		(property "Reference" "H2"
+		(property "Reference" "H4"
 			(at 111.76 91.4399 0)
 			(effects
 				(font
@@ -269,13 +335,22 @@
 				(hide yes)
 			)
 		)
+		(property "Puspose Pin4" ""
+			(at 109.22 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04820642-9abf-444f-a06e-78348a66418a")
 		)
 		(instances
 			(project "frankentar"
 				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/a23b223f-badd-436a-abdf-c34213b6b161"
-					(reference "H2")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -349,6 +424,70 @@
 		)
 	)
 	(symbol
+		(lib_id "logos:logo")
+		(at 107.95 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18aa2c24-94fe-4ce5-879b-b75f1a4c9253")
+		(property "Reference" "H1"
+			(at 111.76 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "foss xlr logo"
+			(at 107.95 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "logos:FOSS-XLR"
+			(at 107.95 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/a23b223f-badd-436a-abdf-c34213b6b161"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 109.22 81.28 0)
 		(unit 1)
@@ -358,7 +497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5706a7ac-f09b-4777-94f7-fa2e473bff91")
-		(property "Reference" "H1"
+		(property "Reference" "H3"
 			(at 111.76 78.7399 0)
 			(effects
 				(font
@@ -403,13 +542,22 @@
 				(hide yes)
 			)
 		)
+		(property "Puspose Pin4" ""
+			(at 109.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eed176c8-0621-4ce4-9f0b-219427abfc95")
 		)
 		(instances
 			(project "frankentar"
 				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/a23b223f-badd-436a-abdf-c34213b6b161"
-					(reference "H1")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -425,7 +573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d63732e-0a1d-4cb1-b966-6234e7a73765")
-		(property "Reference" "H4"
+		(property "Reference" "H6"
 			(at 135.89 91.4399 0)
 			(effects
 				(font
@@ -470,13 +618,22 @@
 				(hide yes)
 			)
 		)
+		(property "Puspose Pin4" ""
+			(at 133.35 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9ef4b0d-c035-4634-aa71-9c42a4e3d3de")
 		)
 		(instances
 			(project "frankentar"
 				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/a23b223f-badd-436a-abdf-c34213b6b161"
-					(reference "H4")
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -617,6 +774,70 @@
 		)
 	)
 	(symbol
+		(lib_id "logos:logo")
+		(at 107.95 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b382fb76-7df6-4d98-845a-f7eb4251efcb")
+		(property "Reference" "H2"
+			(at 111.76 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "foss xlr logo"
+			(at 107.95 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "logos:FOSS-XLR"
+			(at 107.95 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "frankentar"
+				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/a23b223f-badd-436a-abdf-c34213b6b161"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 133.35 81.28 0)
 		(unit 1)
@@ -626,7 +847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c76e820e-1005-4bb7-aa0a-f81d65b50bcc")
-		(property "Reference" "H3"
+		(property "Reference" "H5"
 			(at 135.89 78.7399 0)
 			(effects
 				(font
@@ -671,13 +892,22 @@
 				(hide yes)
 			)
 		)
+		(property "Puspose Pin4" ""
+			(at 133.35 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "29a169fb-92a9-42b7-a60c-858ccad86440")
 		)
 		(instances
 			(project "frankentar"
 				(path "/af28111b-2b7e-4bef-a7c9-69fed8293677/a23b223f-badd-436a-abdf-c34213b6b161"
-					(reference "H3")
+					(reference "H5")
 					(unit 1)
 				)
 			)
