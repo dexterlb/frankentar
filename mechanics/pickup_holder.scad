@@ -30,27 +30,7 @@ cable_notch_width = 2.5;
 cable_notch_radius = 1;
 cable_notch_side_offset = -12;
 
-module regular_ngon(n=6, r=10, rotate_deg=0) {
-    if (n < 3) {
-        echo("regular_ngon: n must be >= 3");
-    } else {
-        points = [ for (i = [0 : n-1])
-            [ r * cos(rotate_deg + 360*i/n), r * sin(rotate_deg + 360*i/n) ]
-        ];
-        polygon(points);
-    }
-}
-
-module squillinder(x, y, radius, height) {
-    linear_extrude(height)
-    minkowski() {
-        square(
-            [x - radius*2, y - radius*2],
-            center = true
-        );
-        circle(r=radius);
-    }
-}
+use <lib.scad>;
 
 module mounting_hole_pole() {
     translate([0, 0, -0.1])
@@ -60,11 +40,7 @@ module mounting_hole_pole() {
 
 module mounting_hole_nut() {
     translate([0, 0, mounting_hole_nut_height])
-    linear_extrude(3.2)
-    minkowski() {
-        circle(d=1);
-        regular_ngon(n=6, r=7.7*0.5);
-    }
+    m4_nut_slot();
 }
 
 module mounting_hole() {
@@ -112,7 +88,8 @@ module flaps_inset() {
 module flap_hole() {
     union() {
         // the hole itself
-        linear_extrude(holder_total_height + 0.1)
+        translate([0, 0, -0.1])
+        linear_extrude(holder_total_height + 0.2)
         circle(d=flap_hole_diameter);
 
         // countersink
@@ -162,6 +139,18 @@ module nut_view() {
     }
 }
 
+module hole_template() {
+    difference() {
+        squillinder(outer_size_x, outer_size_y, holder_rim_radius, 1.9);
+        union() {
+            mounting_holes();
+            flap_holes();
+            window();
+        }
+    }
+}
+
 holder();
+// hole_template();
 // nut_view();
 // mounting_holes();
