@@ -22,10 +22,10 @@ module squillinder(x, y, radius, height) {
 }
 
 module m4_nut_slot() {
-    linear_extrude(3.5)
+    linear_extrude(3.6)
     minkowski() {
         circle(d=1);
-        regular_ngon(n=6, r=7.7*0.5);
+        regular_ngon(n=6, r=7.5*0.5);
     }
 }
 
@@ -33,6 +33,6 @@ module m3_nut_slot() {
     linear_extrude(2.8)
     minkowski() {
         circle(d=0.8);
-        regular_ngon(n=6, r=6.1*0.5);
+        regular_ngon(n=6, r=5.95*0.5);
     }
 }

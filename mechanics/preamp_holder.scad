@@ -20,7 +20,7 @@ module pcb_mounting_hole() {
     union() {
         translate([0, 0, -0.1])
         linear_extrude(pcb_mounting_pole_height + 0.2)
-        circle(d=3.1);
+        circle(d=3.4);
 
         translate([0, 0, pcb_mounting_pole_height - pcb_nut_slot_depth])
         rotate([0, 180, 0])
