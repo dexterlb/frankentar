@@ -417,7 +417,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "isolated_pin_label|2019300|1270000|5dd84036-2ce4-4e47-ae1a-4e49fe7a0da2|00000000-0000-0000-0000-000000000000|/4955781c-f2ff-4afb-8c94-81aa99eeb644/a1422f46-23fc-4ef2-89a2-014c8ce818c4||",
+        ""
+      ],
+      [
+        "isolated_pin_label|2019300|876300|cde97a06-1923-4dc6-af6a-7344af3f14a3|00000000-0000-0000-0000-000000000000|/4955781c-f2ff-4afb-8c94-81aa99eeb644/a1422f46-23fc-4ef2-89a2-014c8ce818c4||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -769,12 +778,138 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Purpose",
+          "name": "Purpose",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purpose Pin1",
+          "name": "Purpose Pin1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purpose Pin10",
+          "name": "Purpose Pin10",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purpose Pin11",
+          "name": "Purpose Pin11",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purpose Pin12",
+          "name": "Purpose Pin12",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purpose Pin13",
+          "name": "Purpose Pin13",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purpose Pin14",
+          "name": "Purpose Pin14",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purpose Pin2",
+          "name": "Purpose Pin2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purpose Pin3",
+          "name": "Purpose Pin3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purpose Pin4",
+          "name": "Purpose Pin4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purpose Pin5",
+          "name": "Purpose Pin5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purpose Pin6",
+          "name": "Purpose Pin6",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purpose Pin7",
+          "name": "Purpose Pin7",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purpose Pin8",
+          "name": "Purpose Pin8",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purpose Pin9",
+          "name": "Purpose Pin9",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Puspose Pin4",
+          "name": "Puspose Pin4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part",
+          "name": "Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -819,7 +954,7 @@
         "uuid": "4955781c-f2ff-4afb-8c94-81aa99eeb644"
       }
     ],
-    "used_designators": "#FLG1-6,#PWR1-105,C1-65,D1,FB1,H1-4,J1-2,L1,Q1,R1-30,U1-11",
+    "used_designators": "#FLG1-6,#PWR1-119,C1-74,D1,FB1,H1-4,J1-4,L1,Q1,R1-42,U1-11",
     "variants": []
   },
   "sheets": [
@@ -833,7 +968,7 @@
     ],
     [
       "a7846b19-0173-4b8a-a15f-23340a9460b5",
-      "Pickup preamp 1"
+      "Capacitative preamp 1"
     ],
     [
       "808c9640-9175-46c7-b2e5-7ff0787577ba",
@@ -841,15 +976,15 @@
     ],
     [
       "e32d78fa-a295-4437-93f7-b17743875dd5",
-      "Pickup preamp 2"
+      "Capacitative preamp 2"
     ],
     [
       "8d385a3c-2417-4397-a893-20f2c8d094cf",
-      "Pickup preamp 3"
+      "Capacitative preamp 3"
     ],
     [
       "36b87506-1c7d-4961-a0df-68a05869af1d",
-      "Pickup preamp 4"
+      "Capacitative preamp 4"
     ],
     [
       "456f3551-95a9-48c5-b1c1-2b9d3f54dbae",
@@ -857,11 +992,11 @@
     ],
     [
       "88a63b55-6b38-4312-b97b-e0b262e5214a",
-      "Pickup preamp 5"
+      "Capacitative preamp 5"
     ],
     [
       "7a1097c3-d8e8-4559-8ec0-97ec36835c30",
-      "Pickup preamp 6"
+      "Capacitative preamp 6"
     ],
     [
       "a1422f46-23fc-4ef2-89a2-014c8ce818c4",
@@ -870,6 +1005,22 @@
     [
       "705cb300-cc47-4033-8ebf-29f7dcee6d92",
       "Power"
+    ],
+    [
+      "44c08a6c-6fc3-41f3-a473-8cc41f8d305e",
+      "Voltage preamp 1"
+    ],
+    [
+      "c5850e54-cd23-4d2c-a0f3-b0c0be6ac76c",
+      "Voltage preamp 2"
+    ],
+    [
+      "55cf9b20-ca2b-4507-bde5-0b160a40f9b7",
+      "Voltage preamp 3"
+    ],
+    [
+      "e7e5636d-ae4c-40a1-9545-9f0ee0b01b2b",
+      "Voltage preamp 4"
     ]
   ],
   "text_variables": {},

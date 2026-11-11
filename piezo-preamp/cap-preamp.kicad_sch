@@ -471,7 +471,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -521,7 +521,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -964,6 +964,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "This circuit is known as a \"charge amplifier\""
+		(exclude_from_sim no)
+		(at 147.32 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0060f4b0-55ee-4353-9bd4-4a7f1f58d3cd")
+	)
 	(junction
 		(at 149.86 82.55)
 		(diameter 0)
@@ -1282,7 +1292,7 @@
 		)
 		(uuid "fc4fa3cd-6016-4172-ada5-05fae2174252")
 	)
-	(hierarchical_label "PIEZO_IN"
+	(hierarchical_label "CAP_IN"
 		(shape input)
 		(at 105.41 91.44 180)
 		(effects
@@ -1572,7 +1582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38624fb5-f01d-4292-85e7-0445b10b1aa6")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR032"
 			(at 165.1 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -1633,27 +1643,27 @@
 		(instances
 			(project "piezo-preamp"
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/36b87506-1c7d-4961-a0df-68a05869af1d"
-					(reference "#PWR050")
+					(reference "#PWR058")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/7a1097c3-d8e8-4559-8ec0-97ec36835c30"
-					(reference "#PWR072")
+					(reference "#PWR080")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/88a63b55-6b38-4312-b97b-e0b262e5214a"
-					(reference "#PWR068")
+					(reference "#PWR076")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/8d385a3c-2417-4397-a893-20f2c8d094cf"
-					(reference "#PWR046")
+					(reference "#PWR054")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/a7846b19-0173-4b8a-a15f-23340a9460b5"
-					(reference "#PWR024")
+					(reference "#PWR032")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/e32d78fa-a295-4437-93f7-b17743875dd5"
-					(reference "#PWR042")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -1985,7 +1995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f8efcdd-d630-42e2-aebd-ac4bf4d2e81c")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR031"
 			(at 121.92 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2046,27 +2056,27 @@
 		(instances
 			(project "piezo-preamp"
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/36b87506-1c7d-4961-a0df-68a05869af1d"
-					(reference "#PWR049")
+					(reference "#PWR057")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/7a1097c3-d8e8-4559-8ec0-97ec36835c30"
-					(reference "#PWR071")
+					(reference "#PWR079")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/88a63b55-6b38-4312-b97b-e0b262e5214a"
-					(reference "#PWR067")
+					(reference "#PWR075")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/8d385a3c-2417-4397-a893-20f2c8d094cf"
-					(reference "#PWR045")
+					(reference "#PWR053")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/a7846b19-0173-4b8a-a15f-23340a9460b5"
-					(reference "#PWR023")
+					(reference "#PWR031")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/e32d78fa-a295-4437-93f7-b17743875dd5"
-					(reference "#PWR041")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -2363,7 +2373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49c6793b-9964-4341-bde3-daa31956d929")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR033"
 			(at 177.8 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -2424,27 +2434,27 @@
 		(instances
 			(project "piezo-preamp"
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/36b87506-1c7d-4961-a0df-68a05869af1d"
-					(reference "#PWR051")
+					(reference "#PWR059")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/7a1097c3-d8e8-4559-8ec0-97ec36835c30"
-					(reference "#PWR073")
+					(reference "#PWR081")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/88a63b55-6b38-4312-b97b-e0b262e5214a"
-					(reference "#PWR069")
+					(reference "#PWR077")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/8d385a3c-2417-4397-a893-20f2c8d094cf"
-					(reference "#PWR047")
+					(reference "#PWR055")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/a7846b19-0173-4b8a-a15f-23340a9460b5"
-					(reference "#PWR025")
+					(reference "#PWR033")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/e32d78fa-a295-4437-93f7-b17743875dd5"
-					(reference "#PWR043")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -2777,7 +2787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d25f96a1-0286-49a7-bd36-5697c2e44023")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR030"
 			(at 120.65 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2838,27 +2848,27 @@
 		(instances
 			(project "piezo-preamp"
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/36b87506-1c7d-4961-a0df-68a05869af1d"
-					(reference "#PWR048")
+					(reference "#PWR056")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/7a1097c3-d8e8-4559-8ec0-97ec36835c30"
-					(reference "#PWR070")
+					(reference "#PWR078")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/88a63b55-6b38-4312-b97b-e0b262e5214a"
-					(reference "#PWR066")
+					(reference "#PWR074")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/8d385a3c-2417-4397-a893-20f2c8d094cf"
-					(reference "#PWR044")
+					(reference "#PWR052")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/a7846b19-0173-4b8a-a15f-23340a9460b5"
-					(reference "#PWR022")
+					(reference "#PWR030")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/e32d78fa-a295-4437-93f7-b17743875dd5"
-					(reference "#PWR040")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)

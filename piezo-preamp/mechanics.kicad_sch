@@ -379,7 +379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d49ad0b-206a-4f2e-b7fa-a939eef7630f")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR028"
 			(at 151.13 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -439,7 +439,7 @@
 		(instances
 			(project "piezo-preamp"
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/5e2e91ba-39ca-45e0-841f-608426d0c41a"
-					(reference "#PWR020")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -457,7 +457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32892958-cb68-494a-b1ca-c95af91d70e3")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR029"
 			(at 151.13 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -517,7 +517,7 @@
 		(instances
 			(project "piezo-preamp"
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/5e2e91ba-39ca-45e0-841f-608426d0c41a"
-					(reference "#PWR021")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -535,7 +535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5aad7c9b-c3ba-43f4-84c1-cf38aac0d73d")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR027"
 			(at 127 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -595,7 +595,7 @@
 		(instances
 			(project "piezo-preamp"
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/5e2e91ba-39ca-45e0-841f-608426d0c41a"
-					(reference "#PWR019")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -613,7 +613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf844afa-96a2-4788-a6bd-bda68105b4b3")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR026"
 			(at 127 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -673,7 +673,7 @@
 		(instances
 			(project "piezo-preamp"
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/5e2e91ba-39ca-45e0-841f-608426d0c41a"
-					(reference "#PWR018")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
