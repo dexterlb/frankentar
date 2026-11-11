@@ -1,0 +1,24 @@
+- chinese pickup
+    - wires (tie red and white together)
+        - red: north coil start
+        - green: north coil end
+        - white: south coil start
+        - black: south coil end
+- adjustment
+    - adjusting truss rod
+        - capo 1st fret and 14th fret
+        - look at the gap on the 7th fret, should be 0.3mm
+        - measure when tuned; adjust 45° at a time and wait 6hrs between adjustments
+    - adjust action
+        - capo 1st fret
+        - measure at 14th fret
+            - 2.5mm for the thickest string and 1.5mm for the thinnest should be fine
+    - check nut height
+        - remove capo at 1st fret
+        - gap on 1st fret should be close to the gap that was at the 2nd fret with the capo
+    - adjust intonation
+        - check notes are the same on the 0th and 12th frets
+        - if not, adjust with saddle position
+- piezo pickup mayhem
+    - the variax guitar uses piezos: https://line6.com/data/6/0a00041400516824e2c3aaa0d/application/pdf/
+
