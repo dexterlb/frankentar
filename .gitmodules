@@ -1,3 +1,3 @@
-[submodule "kicad-libs/MTA-100"]
+[submodule "kicad-libs/mta100"]
 	path = kicad-libs/mta100
-	url = git@github.com:dexterlb/MTA-100.git
+	url = https://github.com/MartijnBraam/MTA-100
