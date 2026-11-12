@@ -864,6 +864,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "pwr_sym:Vmid"
 			(power global)
 			(pin_numbers
@@ -1011,6 +1126,12 @@
 		(uuid "2d71fb2e-515b-4df8-a275-c839fe4e57ec")
 	)
 	(junction
+		(at 128.27 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d6573ac-d161-44a2-a572-c021c0dc8f82")
+	)
+	(junction
 		(at 148.59 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1028,6 +1149,22 @@
 		(color 0 0 0 0)
 		(uuid "8a3512d8-6b3a-476d-9179-81274b3745df")
 	)
+	(junction
+		(at 110.49 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbe14d38-5b59-4890-b5db-46b44b241526")
+	)
+	(wire
+		(pts
+			(xy 128.27 134.62) (xy 128.27 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01a2dc77-c114-409c-a4be-7769e1a4d14f")
+	)
 	(wire
 		(pts
 			(xy 142.24 111.76) (xy 148.59 111.76)
@@ -1037,6 +1174,16 @@
 			(type default)
 		)
 		(uuid "09605df0-aeed-4b13-b35a-7d912d0f278d")
+	)
+	(wire
+		(pts
+			(xy 110.49 102.87) (xy 110.49 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13c3def7-2960-4fb1-893f-40ad0c8c6b94")
 	)
 	(wire
 		(pts
@@ -1060,7 +1207,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 91.44) (xy 113.03 91.44)
+			(xy 105.41 91.44) (xy 110.49 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1080,6 +1227,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 127) (xy 128.27 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32c9bc60-e949-4f3c-ac8a-5200e7387569")
+	)
+	(wire
+		(pts
 			(xy 158.75 93.98) (xy 163.83 93.98)
 		)
 		(stroke
@@ -1087,6 +1244,16 @@
 			(type default)
 		)
 		(uuid "5b705cd2-f5b2-4bea-9b72-554b3a25d3e5")
+	)
+	(wire
+		(pts
+			(xy 110.49 91.44) (xy 113.03 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ff4c170-d2a5-4e10-86a6-3d4be4222d43")
 	)
 	(wire
 		(pts
@@ -1120,6 +1287,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 91.44) (xy 110.49 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac54de43-403b-4b52-abaa-bfdec902fc5b")
+	)
+	(wire
+		(pts
 			(xy 128.27 124.46) (xy 128.27 127)
 		)
 		(stroke
@@ -1127,6 +1304,16 @@
 			(type default)
 		)
 		(uuid "b5520861-ae47-4f71-80ab-0426973cd270")
+	)
+	(wire
+		(pts
+			(xy 123.19 127) (xy 128.27 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7576b59-5339-499f-b5e3-3313ae630939")
 	)
 	(wire
 		(pts
@@ -1209,6 +1396,95 @@
 			(justify right)
 		)
 		(uuid "6ac05264-59f4-4c1d-85a6-f668dd52e4c0")
+	)
+	(symbol
+		(lib_id "pwr_sym:Vmid")
+		(at 110.49 105.41 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "05ef3de8-6366-4af8-a300-f23e9d6f2754")
+		(property "Reference" "#PWR0103"
+			(at 110.49 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Vmid"
+			(at 110.49 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Vmid\""
+			(at 110.49 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3a5ccb1-63a6-45d0-8a40-553ed085a2ac")
+		)
+		(instances
+			(project "piezo-preamp"
+				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/44c08a6c-6fc3-41f3-a473-8cc41f8d305e"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/55cf9b20-ca2b-4507-bde5-0b160a40f9b7"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/c5850e54-cd23-4d2c-a0f3-b0c0be6ac76c"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/e7e5636d-ae4c-40a1-9545-9f0ee0b01b2b"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:OPA4340UA")
@@ -1370,7 +1646,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "439ebcb0-6657-4e6e-90b0-cbadd361304a")
-		(property "Reference" "R33"
+		(property "Reference" "R34"
 			(at 138.43 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1465,19 +1741,19 @@
 		(instances
 			(project "piezo-preamp"
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/44c08a6c-6fc3-41f3-a473-8cc41f8d305e"
-					(reference "R33")
+					(reference "R34")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/55cf9b20-ca2b-4507-bde5-0b160a40f9b7"
-					(reference "R39")
+					(reference "R42")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/c5850e54-cd23-4d2c-a0f3-b0c0be6ac76c"
-					(reference "R36")
+					(reference "R38")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/e7e5636d-ae4c-40a1-9545-9f0ee0b01b2b"
-					(reference "R42")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -1494,7 +1770,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65f57649-638b-4965-b1e6-b355558b3d99")
-		(property "Reference" "R32"
+		(property "Reference" "R33"
 			(at 129.54 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1591,19 +1867,19 @@
 		(instances
 			(project "piezo-preamp"
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/44c08a6c-6fc3-41f3-a473-8cc41f8d305e"
-					(reference "R32")
+					(reference "R33")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/55cf9b20-ca2b-4507-bde5-0b160a40f9b7"
-					(reference "R38")
+					(reference "R41")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/c5850e54-cd23-4d2c-a0f3-b0c0be6ac76c"
-					(reference "R35")
+					(reference "R37")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/e7e5636d-ae4c-40a1-9545-9f0ee0b01b2b"
-					(reference "R41")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -1611,7 +1887,7 @@
 	)
 	(symbol
 		(lib_id "pwr_sym:Vmid")
-		(at 128.27 127 180)
+		(at 123.19 127 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1620,8 +1896,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "747b6bb0-a7da-45ed-b197-bb9d58abd048")
-		(property "Reference" "#PWR0116"
-			(at 128.27 123.19 0)
+		(property "Reference" "#PWR0104"
+			(at 127 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1632,7 +1908,7 @@
 			)
 		)
 		(property "Value" "Vmid"
-			(at 128.27 130.81 0)
+			(at 119.38 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1642,7 +1918,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 127 0)
+			(at 123.19 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1653,7 +1929,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 127 0)
+			(at 123.19 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1664,7 +1940,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Vmid\""
-			(at 128.27 127 0)
+			(at 123.19 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1680,19 +1956,134 @@
 		(instances
 			(project "piezo-preamp"
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/44c08a6c-6fc3-41f3-a473-8cc41f8d305e"
-					(reference "#PWR0116")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/55cf9b20-ca2b-4507-bde5-0b160a40f9b7"
-					(reference "#PWR0118")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/c5850e54-cd23-4d2c-a0f3-b0c0be6ac76c"
-					(reference "#PWR0117")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/e7e5636d-ae4c-40a1-9545-9f0ee0b01b2b"
-					(reference "#PWR0119")
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 110.49 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "79d5e0a8-d994-43f7-aeb9-245605638b77")
+		(property "Reference" "R31"
+			(at 111.76 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.2MΩ"
+			(at 111.76 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 108.712 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "R 1.2MΩ 125mW 1% 0805"
+			(at 110.49 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 110.49 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca9a6485-41dd-4093-9736-79ec9bf5e5f2")
+		)
+		(pin "2"
+			(uuid "16d9e0ab-5b29-4d7d-a24d-10a37a611518")
+		)
+		(instances
+			(project "piezo-preamp"
+				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/44c08a6c-6fc3-41f3-a473-8cc41f8d305e"
+					(reference "R31")
+					(unit 1)
+				)
+				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/55cf9b20-ca2b-4507-bde5-0b160a40f9b7"
+					(reference "R39")
+					(unit 1)
+				)
+				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/c5850e54-cd23-4d2c-a0f3-b0c0be6ac76c"
+					(reference "R35")
+					(unit 1)
+				)
+				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/e7e5636d-ae4c-40a1-9545-9f0ee0b01b2b"
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -1709,7 +2100,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9efb65c6-2a90-4dad-832b-8347d7c7ef1a")
-		(property "Reference" "C68"
+		(property "Reference" "C71"
 			(at 158.75 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1826,19 +2217,259 @@
 		(instances
 			(project "piezo-preamp"
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/44c08a6c-6fc3-41f3-a473-8cc41f8d305e"
-					(reference "C68")
+					(reference "C71")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/55cf9b20-ca2b-4507-bde5-0b160a40f9b7"
-					(reference "C72")
+					(reference "C77")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/c5850e54-cd23-4d2c-a0f3-b0c0be6ac76c"
-					(reference "C70")
+					(reference "C74")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/e7e5636d-ae4c-40a1-9545-9f0ee0b01b2b"
-					(reference "C74")
+					(reference "C80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 128.27 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c60f6956-2cd7-45e2-947f-825dbab76e55")
+		(property "Reference" "C69"
+			(at 130.5941 131.4426 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 130.5941 133.3636 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 128.27 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C 100nF 16V 0805"
+			(at 128.27 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose Pin10" ""
+			(at 128.27 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose Pin11" ""
+			(at 128.27 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose Pin12" ""
+			(at 128.27 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose Pin9" ""
+			(at 128.27 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05da4e58-63c7-4bb7-b23f-30b7d94ad8e0")
+		)
+		(pin "2"
+			(uuid "14dc4cb8-3096-4f6d-8a23-aa09a3ac1a7d")
+		)
+		(instances
+			(project "piezo-preamp"
+				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/44c08a6c-6fc3-41f3-a473-8cc41f8d305e"
+					(reference "C69")
+					(unit 1)
+				)
+				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/55cf9b20-ca2b-4507-bde5-0b160a40f9b7"
+					(reference "C75")
+					(unit 1)
+				)
+				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/c5850e54-cd23-4d2c-a0f3-b0c0be6ac76c"
+					(reference "C72")
+					(unit 1)
+				)
+				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/e7e5636d-ae4c-40a1-9545-9f0ee0b01b2b"
+					(reference "C78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdb2e1e2-44c5-4f5e-8aaf-2884ae711e7a")
+		(property "Reference" "#PWR0105"
+			(at 128.27 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1fa7ae10-6af1-4992-980f-9952fee77ddc")
+		)
+		(instances
+			(project "piezo-preamp"
+				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/44c08a6c-6fc3-41f3-a473-8cc41f8d305e"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/55cf9b20-ca2b-4507-bde5-0b160a40f9b7"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/c5850e54-cd23-4d2c-a0f3-b0c0be6ac76c"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/e7e5636d-ae4c-40a1-9545-9f0ee0b01b2b"
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -1855,7 +2486,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f51331e5-719c-4ca8-9e12-2c2058b9fc59")
-		(property "Reference" "R31"
+		(property "Reference" "R32"
 			(at 119.38 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1940,19 +2571,19 @@
 		(instances
 			(project "piezo-preamp"
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/44c08a6c-6fc3-41f3-a473-8cc41f8d305e"
-					(reference "R31")
+					(reference "R32")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/55cf9b20-ca2b-4507-bde5-0b160a40f9b7"
-					(reference "R37")
+					(reference "R40")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/c5850e54-cd23-4d2c-a0f3-b0c0be6ac76c"
-					(reference "R34")
+					(reference "R36")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/e7e5636d-ae4c-40a1-9545-9f0ee0b01b2b"
-					(reference "R40")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -1969,7 +2600,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc7e2ef8-ae3a-4c49-afcd-78485a2635e6")
-		(property "Reference" "C67"
+		(property "Reference" "C70"
 			(at 139.7 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2066,19 +2697,19 @@
 		(instances
 			(project "piezo-preamp"
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/44c08a6c-6fc3-41f3-a473-8cc41f8d305e"
-					(reference "C67")
+					(reference "C70")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/55cf9b20-ca2b-4507-bde5-0b160a40f9b7"
-					(reference "C71")
+					(reference "C76")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/c5850e54-cd23-4d2c-a0f3-b0c0be6ac76c"
-					(reference "C69")
+					(reference "C73")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/e7e5636d-ae4c-40a1-9545-9f0ee0b01b2b"
-					(reference "C73")
+					(reference "C79")
 					(unit 1)
 				)
 			)
