@@ -2099,25 +2099,27 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9efb65c6-2a90-4dad-832b-8347d7c7ef1a")
+		(uuid "7d3f20cb-49d3-4a54-bb4f-db4b8180f342")
 		(property "Reference" "C71"
-			(at 158.75 92.71 90)
+			(at 157.48 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "10μF"
-			(at 160.02 95.25 90)
+			(at 157.48 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -2153,7 +2155,7 @@
 				)
 			)
 		)
-		(property "MPN" "C 10μF 16V 0805"
+		(property "MPN" "C 10μF 50V 0805"
 			(at 156.21 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2208,11 +2210,22 @@
 				)
 			)
 		)
+		(property "LCSC" "C440198"
+			(at 156.21 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "7f3187f2-fddb-431f-bbeb-6f151779afc4")
+			(uuid "6c2d4a26-f3c7-47b5-842e-a56d2b3928c1")
 		)
 		(pin "2"
-			(uuid "84a4946a-f67b-456b-a8aa-e6d62b1abe4d")
+			(uuid "ee829eea-f1c3-4c8e-ad43-4db642c81d47")
 		)
 		(instances
 			(project "piezo-preamp"

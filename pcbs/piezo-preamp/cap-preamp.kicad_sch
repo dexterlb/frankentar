@@ -413,183 +413,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Polarized"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1205,6 +1028,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 93.98) (xy 179.07 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13fea023-8a57-4fdd-9905-598f93cbdc8d")
+	)
+	(wire
+		(pts
 			(xy 105.41 91.44) (xy 110.49 91.44)
 		)
 		(stroke
@@ -1255,6 +1088,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 104.14) (xy 179.07 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a3ab7a1-7b07-4cb3-b206-f958986d4c2f")
+	)
+	(wire
+		(pts
 			(xy 116.84 96.52) (xy 121.92 96.52)
 		)
 		(stroke
@@ -1272,16 +1115,6 @@
 			(type default)
 		)
 		(uuid "5967acaf-b656-4393-a7ea-2d5b827c6597")
-	)
-	(wire
-		(pts
-			(xy 173.99 104.14) (xy 179.07 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5eac0fd4-ca5b-4db7-a8cb-d38cfdff9bd3")
 	)
 	(wire
 		(pts
@@ -1305,7 +1138,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 104.14) (xy 166.37 104.14)
+			(xy 163.83 104.14) (xy 167.64 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1395,17 +1228,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 93.98) (xy 179.07 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd20959d-33ce-49d9-b772-28e8d5ac4f20")
-	)
-	(wire
-		(pts
-			(xy 161.29 93.98) (xy 166.37 93.98)
+			(xy 161.29 93.98) (xy 167.64 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2533,8 +2356,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 170.18 104.14 90)
+		(lib_id "Device:C_Small")
+		(at 170.18 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2542,9 +2365,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a39667ff-a3ab-465c-ac99-40204d295dd3")
-		(property "Reference" "C4"
-			(at 171.45 102.87 90)
+		(uuid "756ea30d-672f-40f0-9816-9b2b3dd86dc6")
+		(property "Reference" "C3"
+			(at 171.45 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2555,7 +2378,7 @@
 			)
 		)
 		(property "Value" "10μF"
-			(at 171.45 105.41 90)
+			(at 171.45 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2565,8 +2388,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
-			(at 173.99 103.1748 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 170.18 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2577,7 +2400,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 104.14 0)
+			(at 170.18 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2587,8 +2410,8 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 170.18 104.14 0)
+		(property "Description" ""
+			(at 170.18 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2598,8 +2421,8 @@
 				)
 			)
 		)
-		(property "MPN" "C 10μF Audio 16V P2"
-			(at 170.18 104.14 90)
+		(property "MPN" "C 10μF 50V 0805"
+			(at 170.18 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2610,7 +2433,7 @@
 			)
 		)
 		(property "Purpose Pin10" ""
-			(at 170.18 104.14 90)
+			(at 170.18 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2621,7 +2444,7 @@
 			)
 		)
 		(property "Purpose Pin11" ""
-			(at 170.18 104.14 90)
+			(at 170.18 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2632,7 +2455,7 @@
 			)
 		)
 		(property "Purpose Pin12" ""
-			(at 170.18 104.14 90)
+			(at 170.18 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2643,7 +2466,7 @@
 			)
 		)
 		(property "Purpose Pin9" ""
-			(at 170.18 104.14 90)
+			(at 170.18 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2653,8 +2476,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C46550416"
-			(at 170.18 104.14 90)
+		(property "LCSC" "C440198"
+			(at 170.18 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2663,37 +2486,37 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "a590490b-c5c9-4fe8-8503-9b5ba9cf7c43")
 		)
 		(pin "1"
-			(uuid "48aee6c3-ed5f-43ee-9658-fbcd813adb4d")
+			(uuid "7ee5d03e-cf19-47b1-8216-180818ed9077")
+		)
+		(pin "2"
+			(uuid "0956eafa-1fb0-47f2-bead-9dce69f52398")
 		)
 		(instances
 			(project "piezo-preamp"
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/36b87506-1c7d-4961-a0df-68a05869af1d"
-					(reference "C31")
+					(reference "C30")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/7a1097c3-d8e8-4559-8ec0-97ec36835c30"
-					(reference "C52")
+					(reference "C51")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/88a63b55-6b38-4312-b97b-e0b262e5214a"
-					(reference "C46")
+					(reference "C45")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/8d385a3c-2417-4397-a893-20f2c8d094cf"
-					(reference "C25")
+					(reference "C24")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/a7846b19-0173-4b8a-a15f-23340a9460b5"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/e32d78fa-a295-4437-93f7-b17743875dd5"
-					(reference "C19")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -2957,8 +2780,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 170.18 93.98 90)
+		(lib_id "Device:C_Small")
+		(at 170.18 104.14 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2966,9 +2789,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "baee6113-560f-4728-a8bf-6718b07675ce")
-		(property "Reference" "C3"
-			(at 171.45 92.71 90)
+		(uuid "bc1f418a-2239-43cd-8e14-fa28e87eb24e")
+		(property "Reference" "C4"
+			(at 171.45 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2979,7 +2802,7 @@
 			)
 		)
 		(property "Value" "10μF"
-			(at 171.45 95.25 90)
+			(at 171.45 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2989,8 +2812,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
-			(at 173.99 93.0148 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 170.18 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3001,7 +2824,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 93.98 0)
+			(at 170.18 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3011,8 +2834,8 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 170.18 93.98 0)
+		(property "Description" ""
+			(at 170.18 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3022,8 +2845,8 @@
 				)
 			)
 		)
-		(property "MPN" "C 10μF Audio 16V P2"
-			(at 170.18 93.98 90)
+		(property "MPN" "C 10μF 50V 0805"
+			(at 170.18 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3034,7 +2857,7 @@
 			)
 		)
 		(property "Purpose Pin10" ""
-			(at 170.18 93.98 90)
+			(at 170.18 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3045,7 +2868,7 @@
 			)
 		)
 		(property "Purpose Pin11" ""
-			(at 170.18 93.98 90)
+			(at 170.18 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3056,7 +2879,7 @@
 			)
 		)
 		(property "Purpose Pin12" ""
-			(at 170.18 93.98 90)
+			(at 170.18 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3067,7 +2890,7 @@
 			)
 		)
 		(property "Purpose Pin9" ""
-			(at 170.18 93.98 90)
+			(at 170.18 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3077,8 +2900,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C46550416"
-			(at 170.18 93.98 90)
+		(property "LCSC" "C440198"
+			(at 170.18 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3087,37 +2910,37 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "06e82cea-6cb3-4429-bf5f-70a5743f417c")
 		)
 		(pin "1"
-			(uuid "f1ce3a79-3839-4811-b9e6-96964d395ac3")
+			(uuid "82c44734-3ed7-4ec1-9637-16778869aa0e")
+		)
+		(pin "2"
+			(uuid "2a41d3c3-14c7-4e43-8926-15bd7d8f8670")
 		)
 		(instances
 			(project "piezo-preamp"
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/36b87506-1c7d-4961-a0df-68a05869af1d"
-					(reference "C30")
+					(reference "C31")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/7a1097c3-d8e8-4559-8ec0-97ec36835c30"
-					(reference "C51")
+					(reference "C52")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/88a63b55-6b38-4312-b97b-e0b262e5214a"
-					(reference "C45")
+					(reference "C46")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/8d385a3c-2417-4397-a893-20f2c8d094cf"
-					(reference "C24")
+					(reference "C25")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/a7846b19-0173-4b8a-a15f-23340a9460b5"
-					(reference "C3")
+					(reference "C4")
 					(unit 1)
 				)
 				(path "/4955781c-f2ff-4afb-8c94-81aa99eeb644/e32d78fa-a295-4437-93f7-b17743875dd5"
-					(reference "C18")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -3244,7 +3067,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47Ω"
+		(property "Value" "120Ω"
 			(at 157.48 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3287,7 +3110,7 @@
 				)
 			)
 		)
-		(property "MPN" "R 47Ω 125mW 1% 0805"
+		(property "MPN" "R 120Ω 125mW 1% 0805"
 			(at 157.48 93.98 0)
 			(hide yes)
 			(show_name no)
